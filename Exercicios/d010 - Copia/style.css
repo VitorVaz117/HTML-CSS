@@ -1,0 +1,59 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-color: rgb(203, 255, 181);
+}
+
+header{
+    background-image: linear-gradient(to bottom, rgb(116, 255, 116), green);
+    padding: 10px;
+    margin: -10px -10px -20px -10px;
+}
+
+.centralizar{
+    text-align: center;
+    color: white;
+}
+
+nav > a{
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+}
+
+nav > a:hover{
+    background-color: aqua;
+}
+
+section{
+
+    background-color: white;
+    padding: 0px 10px 10px 10px;
+}
+
+.imagem-centralizada{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+b{
+    color: green;
+}
+
+div{
+    margin: 10px;
+    background-color: rgb(116, 255, 116);
+    padding: 0px 10px 10px 10px;
+    border-radius: 5px;
+}
+
+h3{
+    background-color: green;
+}
+
+footer{
+    background-color: green;
+    color: white;
+    text-align: center;
+}

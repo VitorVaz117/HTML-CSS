@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com links</title>
+</head>
+<body>
+    <h1>Usando links externos</h1>
+    <p>Vc pode acessar o meu <a href="https://github.com/gustavoguanabara/html-css/tree/master/aulas-pdf">repositório público no Github</a>
+    </p><!--Detalhe: Essa maneira de fazer, faz com que o seu site seja sobreposto ao do link externo, o que não é bom. Confira a melhor maneira abaixo:-->
+    <p>Vc pode acessar o meu <a href="https://github.com/gustavoguanabara/html-css/tree/master/aulas-pdf" target="_blank" rel="externo">repositório público no Github</a>
+
+    <h1>Usando links internos</h1>
+    <p>Acesse a segunda página clicando <a href="pag002.html" rel="next" target="_self">aqui</a>.</p>
+
+    <p>Vc também pode acessar a nossa <a href="noticias/index.html" rel="next" target="_self">página de notícias</a></p>
+
+    <h1>Links para downloads</h1>
+    <ul>
+        <a href="./Livro/09 - Listas HTML.pdf">
+        Baixar o livro em PDF
+        </a><!--Tive que mudar as configurações no navegador para poder funcionar-->
+        <li><a href="Livro/09 - Listas HTML.pdf">Livro compactado em ZIP</a></li>
+    </ul>
+
+</body>
+</html>
+

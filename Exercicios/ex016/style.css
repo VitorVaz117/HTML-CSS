@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body{
+    background-image: linear-gradient(to right, #012623,#017434,#029E40,#02DC4A);
+}
+
+main{
+    background-color: White;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px black; /*Quanto a sombra irá p/ o lado, Quanto p/ baixo, Espalhar, Transparencia */
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+}
+
+h1{
+    color: #017434;
+    text-align: center;
+}
+
+h2{
+    color: #017434;
+}
+
+p{
+    text-align: justify;
+}
+
